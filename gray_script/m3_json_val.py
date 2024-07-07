@@ -1,6 +1,6 @@
 import json
 
-with open('edu_chinese_character.txt', 'r', encoding='utf-8') as file:
+with open('val.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 # 使用列表推导式将字符串分割为单个字符的列表
